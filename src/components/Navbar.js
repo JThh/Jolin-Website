@@ -21,7 +21,7 @@ class Navbar extends Component {
                 <AppBar className={classes.appbar} position="fixed" color={isHero ? "transparent" : "primary"}>
                     <Toolbar className={classes.toolbar}>
                         <Typography variant="h5">
-                            <HashLink smooth to="#">jiatong-han</HashLink>
+                            <HashLink smooth to="#">yining-han</HashLink>
                         </Typography>
                         <div className={`${classes.middle} ${classes.desktop}`}>
                             <Typography variant="h6">
