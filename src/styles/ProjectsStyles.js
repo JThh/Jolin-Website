@@ -1,41 +1,20 @@
-const styles = (theme) => ({
+// src/styles/PublicationsStyles.js
+
+const styles = theme => ({
     root: {
-        paddingTop: `${theme.mixins.toolbar.minHeight}px`,
-        paddingBottom: `${theme.mixins.toolbar.minHeight}px`,
-        height: `fit-content`,
-        boxSizing: "border-box",
-        backgroundColor: "#F5F5F5"
+        padding: theme.spacing(6, 0),
+        backgroundColor: theme.palette.background.default,
     },
     title: {
-        marginBottom: `${theme.mixins.toolbar.minHeight}px`,
-        marginTop: `${theme.mixins.toolbar.minHeight * 0.5}px`,
-    },
-    rootGrid: {
-
-    },
-    cardDiv: {
-
+        marginBottom: theme.spacing(4),
     },
     card: {
-
-    },
-    cardMedia: {
-        height: 200,
-    },
-    cardContent: {
-    },
-    cardActions: {
-        justifyContent: "center",
-        flexWrap: "wrap"
-    },
-    chip: {
-        color: "#018786",
-        borderColor: "#018786",
-        marginBottom: "3px"
+        padding: theme.spacing(2),
+        boxShadow: theme.shadows[3],
     },
     button: {
-        marginBottom: "3px"
-    }
+        textTransform: 'none',
+    },
 });
 
 export default styles;
