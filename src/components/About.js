@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import courseWork from "../data/CourseWork";
 import awardData from "../data/awardData";
 import skills from "../data/Skills";
+import Link from '@material-ui/core/Link';
 
 class About extends Component {
 
@@ -107,9 +108,14 @@ class About extends Component {
                                     </AccordionSummary>
                                     {this.renderCerts(classes)}
                                 </Accordion>
-                                <Typography variant="body2" align={"center"} style={{marginTop: "0.8rem", marginBottom: "0.1rem"}}>
+                                {/* <Typography variant="body2" align={"center"} style={{marginTop: "0.8rem", marginBottom: "0.1rem"}}>
                                     <Link color="primary" href="https://drive.google.com/uc?export=download&id=1gymiMR_i14lDrwJHdDHWFxEYr8DA40EA">
                                         {'Download CV (PDF)'}
+                                    </Link>
+                                </Typography> */}
+                                <Typography variant="body2" align="center" style={{ marginTop: "0.8rem", marginBottom: "0.1rem" }}>
+                                    <Link href="https://drive.google.com/uc?export=download&id=1gymiMR_i14lDrwJHdDHWFxEYr8DA40EA" color="primary" target="_blank" rel="noopener">
+                                        Download CV (PDF)
                                     </Link>
                                 </Typography>
                             </div>

@@ -37,7 +37,7 @@ const exportedObject = [
     },
     {
         title: "AI-Assisted Speech Evaluation System",
-        imageLink: aiSpeechEvaluation, // Ensure you have this image in your ../images/ directory
+        // imageLink: aiSpeechEvaluation, // Ensure you have this image in your ../images/ directory
         description: "Investigated the acceptance of EAP Talk, an AI-powered English-speaking practice app. Designed and administered a questionnaire based on the Integrated Model of Technology Acceptance to assess motivating and demotivating factors.",
         links: {
             publication: "https://doi.org/10.1080/09588221.2023.2278608", // Publication link
