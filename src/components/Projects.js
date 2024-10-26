@@ -9,7 +9,7 @@ import publications from "../data/ProjectsData"; // Ensure the path is correct
 const Publications = ({ classes }) => {
     return (
         <div id="Publications" className={classes.root}>
-            <Typography className={classes.title} variant="h3" align="center" color="primary">
+            <Typography className={classes.title} variant="h3" align="center" color="textSecondary">
                 Publications
             </Typography>
             <Container>
