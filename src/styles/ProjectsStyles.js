@@ -1,9 +1,9 @@
-// src/styles/PublicationsStyles.js
+// src/styles/ProjectsStyles.js
 
 const styles = theme => ({
     root: {
         padding: theme.spacing(6, 0),
-        backgroundColor: theme.palette.background.default,
+        backgroundColor: theme.palette.background.paper,
     },
     title: {
         marginBottom: theme.spacing(4),
@@ -15,6 +15,14 @@ const styles = theme => ({
     button: {
         textTransform: 'none',
     },
+    blackLink: {
+        color: 'black',
+        textDecoration: 'underline',
+        '&:hover': {
+            color: 'darkgray', // Slight color change on hover
+            textDecoration: 'underline',
+        },
+    },    
 });
 
 export default styles;

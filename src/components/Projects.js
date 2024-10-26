@@ -1,10 +1,10 @@
 import React from 'react';
 import { withStyles } from "@material-ui/core/styles";
-import styles from "../styles/ProjectsStyles";
+import styles from "../styles/ProjectsStyles"; // Ensure the path is correct
 import Typography from "@material-ui/core/Typography";
 import { Container, Grid, Card, CardContent, Link as MuiLink, Button } from "@material-ui/core";
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import publications from "../data/ProjectsData";
+import publications from "../data/ProjectsData"; // Ensure the path is correct
 
 const Publications = ({ classes }) => {
     return (
@@ -27,16 +27,16 @@ const Publications = ({ classes }) => {
                                     <Typography variant="body2" color="textSecondary">
                                         {new Date(pub.date).toLocaleDateString()} | {pub.type}
                                     </Typography>
-                                    <Typography variant="body1" style={{ marginTop: '0.5rem' }}>
+                                    <Typography variant="body1" className={classes.sectionMargin}>
                                         <strong>Contributors:</strong> {pub.contributors.join(', ')}
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" style={{ marginTop: '0.5rem' }}>
-                                        <strong>DOI:</strong> <MuiLink href={`https://doi.org/${pub.doi}`} target="_blank" rel="noopener">
+                                    <Typography variant="body2" color="textSecondary" className={classes.sectionMargin}>
+                                        <strong>DOI:</strong> <MuiLink href={`https://doi.org/${pub.doi}`} target="_blank" rel="noopener" className={classes.blackLink}>
                                             {pub.doi}
                                         </MuiLink>
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" style={{ marginTop: '0.5rem' }}>
-                                        <strong>Source:</strong> <MuiLink href={pub.sourceLink} target="_blank" rel="noopener">
+                                    <Typography variant="body2" color="textSecondary" className={classes.sectionMargin}>
+                                        <strong>Source:</strong> <MuiLink href={pub.sourceLink} target="_blank" rel="noopener" className={classes.blackLink}>
                                             {pub.source}
                                         </MuiLink>
                                     </Typography>
@@ -48,7 +48,6 @@ const Publications = ({ classes }) => {
                                         rel="noopener"
                                         className={classes.button}
                                         endIcon={<ArrowForwardIcon />}
-                                        style={{ marginTop: '1rem' }}
                                     >
                                         Show More
                                     </Button>
