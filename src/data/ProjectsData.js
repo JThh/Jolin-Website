@@ -24,3 +24,5 @@ const exportedObject = [
         showMoreLink: "https://doi.org/10.1080/09588221.2023.2278608",
     },
 ]
+
+export default exportedObject;
