@@ -1,26 +1,31 @@
-// import java from "../images/skillLogos/java.png";
-import python from "../images/skillLogos/python.png";
-import pytorch from "../images/skillLogos/pytorch.png";
-import c from "../images/skillLogos/c.png";
-// import cuda from "../images/skillLogos/cuda.png";
-// import opengl from "../images/skillLogos/opengl.png";
-import latex from "../images/skillLogos/latex.png";
-import git from "../images/skillLogos/git.png";
-import mendeley from "../images/skillLogos/mendeley.png";
-import openmp from "../images/skillLogos/openmp.png";
-// import postgresql from "../images/skillLogos/postgresql.png"
-import mysql from "../images/skillLogos/mysql.png"
-// import RecSys from "../images/skillLogos/recsys.png"
-// import NLP from "../images/skillLogos/nlp.png"
-import pandas from "../images/skillLogos/pandas.png"
-import numpy from "../images/skillLogos/numpy.png"
-// import matplotlib from "../images/skillLogos/matplotlib.png"
-
+// Import relevant images or icons. Replace these with actual image filenames if available.
+import adobePremiere from "../images/skillLogos/premiere-pro.png";
+import microsoftOffice from "../images/skillLogos/office.png";
+import spss from "../images/skillLogos/spss.png";
+import sketchEngine from "../images/skillLogos/sketch-engine.png";
+import catit from "../images/skillLogos/catti.png"; // CATTI Level 3 Translator
+import tefl from "../images/skillLogos/tefl-cetified.png"; // TEFL Certificate
+import englishFlag from "../images/skillLogos/england-flag.png";
+import chineseFlag from "../images/skillLogos/chinese-flag.png";
+import spanishFlag from "../images/skillLogos/spain-flag.png";
+// Add more imports as needed
 
 const exportedObject = {
-    "Languages": [python, pytorch, c, openmp],
-    "Research": [latex, git, mendeley],
-    "Data Science": [mysql, numpy, pandas],
+    "Software Tools": [
+        adobePremiere,
+        microsoftOffice,
+        spss,
+        sketchEngine,
+    ],
+    "Languages": [
+        englishFlag,    // English (Working Proficiency, IELTS 8.0)
+        chineseFlag,    // Chinese (Native)
+        spanishFlag     // Spanish (Limited Working Proficiency)
+    ],
+    "Certifications": [
+        tefl,           // Certificate in Teaching English to Speakers of Other Languages
+        catit           // CATTI Level 3 Translator
+    ],
 };
 
 export default exportedObject;

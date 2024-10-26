@@ -1,4 +1,4 @@
-<h1 align="center">Jiatong's Personal Portfolio</h1>
+<h1 align="center">Jolin's Personal Portfolio</h1>
 
 <p align="center"><img width="45%" src="src/images/portfolio.jpg"/><img width="45%" src="src/images/ContactMe.jpg"/></p>
 

@@ -44,7 +44,7 @@ class Experience extends Component {
             <div id={"Experience"} className={classes.root}>
                 <Container>
                     <Typography className={classes.title} variant="h3" align={"center"} color={"primary"}>
-                        Experience (till Aug 2022)
+                        Experience
                     </Typography>
                     <div className={classes.timeLine}>
                         {this.renderExperiences(classes)}

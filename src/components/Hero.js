@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Particles from "react-particles-js";
-import {withStyles} from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/core/styles";
 import styles from "../styles/HeroStyles";
-import {Grid, Typography} from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
-import {HashLink} from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import Typed from "react-typed"
+import Typed from "react-typed";
 
 class Hero extends Component {
     particlesConfig = {
@@ -16,39 +16,63 @@ class Hero extends Component {
             },
             size: {
                 value: 3,
-            }
+            },
+            color: {
+                value: "#3f51b5", // Primary color for consistency
+            },
+            line_linked: {
+                color: "#3f51b5",
+            },
         },
         interactivity: {
-            detect_on:"window",
+            detect_on: "window",
             events: {
                 onhover: {
                     enable: true,
                     mode: "repulse"
-                }
+                },
+                onclick: {
+                    enable: true,
+                    mode: "push"
+                },
             }
         }
     }
 
     render() {
-        const {classes} = this.props;
+        const { classes } = this.props;
         return (
             <div id={"Home"} className={classes.root}>
-                <Grid container className={classes.rootGrid} justify={"center"} alignItems={"center"} >
-                    <Grid item xs={"12"} md={"6"} className={classes.intro}>
-                        <Typography variant={"h3"} color={"Primary"}>
+                <Particles className={classes.particles} params={this.particlesConfig} />
+                <Grid container className={classes.rootGrid} justifyContent="center" alignItems="center">
+                    <Grid item xs={12} md={6} className={classes.intro}>
+                        <Typography variant="h3" color="primary" className={classes.greeting}>
                             Hello, I'm Yining (Jolin)
                         </Typography>
-                        <Typography variant={"h5"} color={"Primary"} style={{marginTop: "1rem"}}>
-                            and I'm <Typed strings={["a computer science student", "an aspired researcher", "a geeky engineer"]} typeSpeed={40} backSpeed={45} loop/>
+                        <Typography variant="h5" color="primary" className={classes.subGreeting} style={{ marginTop: "1rem" }}>
+                            and I'm <Typed
+                                strings={[
+                                    "an Applied Linguistics Researcher",
+                                    "a Second Language Acquisition Specialist",
+                                    "an Educational Technology Enthusiast"
+                                ]}
+                                typeSpeed={40}
+                                backSpeed={45}
+                                loop
+                            />
                         </Typography>
-                        <HashLink smooth to={"/#About"}>
-                            <Button variant="contained" color={"secondary"} className={classes.button} endIcon={<ArrowDownwardIcon fontSize={"large"}/>}>
+                        <HashLink smooth to="/#About" className={classes.hashLink}>
+                            <Button
+                                variant="contained"
+                                color="secondary"
+                                className={classes.button}
+                                endIcon={<ArrowDownwardIcon fontSize="large" />}
+                            >
                                 View More
                             </Button>
                         </HashLink>
                     </Grid>
                 </Grid>
-                <Particles className={classes.particles} params={this.particlesConfig}/>
             </div>
         );
     }

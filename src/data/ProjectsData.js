@@ -1,101 +1,95 @@
-import colossalai from "../images/colossalai.png"
-import unicausal from "../images/unicausal.png"
-import socipy from "../images/socipy.png"
-import freqawareembed from "../images/freqawareembed.png"
-// import graphgre from "../images/graphgre.png"
-import cohortanalyzer from "../images/cohortanalyzer.png"
-import minkcut from "../images/minkcut.png"
+// Import relevant images. Replace 'project1.png', etc., with actual image filenames.
+import learnerCorpus from "../images/learnerCorpus.png";
+import scopingReview from "../images/scopingReview.png";
+import aiSpeechEvaluation from "../images/aiSpeechEvaluation.png";
+import mobileVocabulary from "../images/mobileVocabulary.png";
+import moocSocialTools from "../images/moocSocialTools.png";
+import errorAnalysis from "../images/errorAnalysis.png";
 
 const exportedObject = [
     {
-        title: "Colossal-AI",
-        imageLink: colossalai,
-        description: "A unified deep learning system for big model era. Gained over 5K stars on Github",
+        title: "Learner Corpus Construction",
+        imageLink: learnerCorpus, // Ensure you have this image in your ../images/ directory
+        description: "Developed a cross-sectional corpus of 26 Chinese undergraduates' disciplinary writing using Sketch Engine. Conducted comprehensive error analysis categorizing grammatical, lexical-grammatical, and lexical errors.",
         links: {
-            github: "https://github.com/hpcaitech/ColossalAI",
-            documentation: "https://www.colossalai.org/",
+            publication: "https://yining-han.netlify.app/publications#1", // Update with actual publication link if available
         },
         skills: [
-            "CUDA",
-            "PyTorch",
-            "Transformer"
+            "Corpus Linguistics",
+            "Error Analysis",
+            "Sketch Engine",
+            "Data Categorization"
         ]
     },
     {
-        title: "UniCausal",
-        imageLink: unicausal,
-        description: "A unified benchmark for causal text mining tasks across six datasets and three tasks. ",
+        title: "Scoping Review on Social Tools in MOOCs",
+        imageLink: scopingReview, // Ensure you have this image in your ../images/ directory
+        description: "Performed a systematic scoping review of 55 peer-reviewed articles on built-in social tools in MOOCs. Analyzed their impact on students' belongingness, interest, and completion rates.",
         links: {
-            github: "https://github.com/tanfiona/UniCausal",
-            documentation: "https://arxiv.org/abs/2208.09163"
+            publication: "https://yining-han.netlify.app/publications#2", // Update with actual publication link if available
         },
         skills: [
-            "HuggingFace",
-            "Causal Reasoning"
+            "Systematic Review",
+            "MOOCs",
+            "Social Tools Analysis",
+            "Data Extraction"
         ]
     },
     {
-        title: "Socipy",
-        imageLink: socipy,
-        description: "A social science research toolkit spanning areas of nlp, network analysis, and file streaming.",
+        title: "AI-Assisted Speech Evaluation System",
+        imageLink: aiSpeechEvaluation, // Ensure you have this image in your ../images/ directory
+        description: "Investigated the acceptance of EAP Talk, an AI-powered English-speaking practice app. Designed and administered a questionnaire based on the Integrated Model of Technology Acceptance to assess motivating and demotivating factors.",
         links: {
-            github: "https://github.com/JThh/Handy-Tools-for-Social-Science-Research",
+            publication: "https://doi.org/10.1080/09588221.2023.2278608", // Publication link
         },
         skills: [
-            "Natural Languages Proccessing",
+            "Artificial Intelligence",
+            "Technology Acceptance Model",
+            "Survey Design",
+            "SPSS",
+            "AMOS"
         ]
     },
     {
-        title: "FreqAwareEmbedding",
-        imageLink: freqawareembed,
-        description: "A frequency-aware software cache for large recommendation system embeddings.",
+        title: "Mobile-Assisted Vocabulary Learning",
+        imageLink: mobileVocabulary, // Ensure you have this image in your ../images/ directory
+        description: "Examined Chinese EFL learners’ acceptance of mobile-assisted vocabulary learning applications. Analyzed influencing factors affecting the adoption and effectiveness of such tools.",
         links: {
-            paper: "https://arxiv.org/pdf/2208.05321.pdf",
-            github: "https://github.com/hpcaitech/FreqCacheEmbedding",
+            publication: "https://doi.org/10.1515/jccall-2024-0005", // Publication link
         },
         skills: [
-            "Recommendation system",
-            "Parallel Computing"
+            "Mobile Learning",
+            "Vocabulary Acquisition",
+            "Data Analysis",
+            "User Acceptance"
         ]
     },
     {
-        title: "Min. K-Cut",
-        imageLink: minkcut,
-        description: "A survey on minimum K-cut via edge contraction. Top project for graduate-level course CS5330",
+        title: "Built-in Social Tools in MOOCs",
+        imageLink: moocSocialTools, // Ensure you have this image in your ../images/ directory
+        description: "Analyzed the role of built-in social tools like forums and discussion boards in MOOCs. Assessed their impact on student engagement and course completion rates.",
         links: {
-            paper: "https://drive.google.com/file/d/1eM0dL83fQrJidNrBw4AmepRJr28k8o4_/view?usp=sharing",
-            slides: "https://drive.google.com/file/d/1aiWSq-TsxOJ9Wz95BJidQmS-1dwj2D72/view?usp=sharing"
+            publication: "https://yining-han.netlify.app/publications#2", // Link to the scoping review publication
         },
         skills: [
-            "Randomized Algorithm",
-            "Algorithm Complexity",
+            "MOOCs",
+            "Social Media Tools",
+            "Student Engagement",
+            "Educational Technology"
         ]
     },
-    // {
-    //     title: "GraphDRE",
-    //     imageLink: graphgre,
-    //     description: "Dialogue relation extraction with dependency graph convolutional networks",
-    //     links: {
-    //         paper: "https://bit.ly/3OcOdud"
-    //     },
-    //     skills: [
-    //         "Graph Neural Networks",
-    //         "Dependency Parsing",
-    //     ]
-    // },
     {
-        title: "CohortAnalyzer",
-        imageLink: cohortanalyzer,
-        description: "Course enrolment statistical analysis toolkit (awarded $200 competition prize) ",
+        title: "Error Analysis in Disciplinary Writing",
+        imageLink: errorAnalysis, // Ensure you have this image in your ../images/ directory
+        description: "Conducted a detailed error analysis of Chinese undergraduates' disciplinary writing. Categorized errors into grammatical, lexical-grammatical, and lexical errors to identify common language acquisition challenges.",
         links: {
-            github: "https://github.com/JThh/Cohort-Analysis-Toolkit",
-            report: "https://docs.google.com/document/d/1-SaGUwv0BMd5wm3iM6xNp8mwsuuriYKUJOIuHco3By8/edit?usp=sharing",
-            demo: "https://jthh-cohort-analysis-toolkit-srcapp-i8e7rj.streamlitapp.com/",
-            // certificate: "https://credentials.nus.edu.sg/4e4a1dea-28b9-4ebc-87d5-1cc2d41488b9"
+            publication: "https://yining-han.netlify.app/publications#1", // Link to the learner corpus publication
         },
         skills: [
-            "Data Visualization",
-            "Statistical Analysis",
+            "Error Categorization",
+            "Linguistic Analysis",
+            "Applied Linguistics",
+            "Data Processing"
         ]
     },
 ];

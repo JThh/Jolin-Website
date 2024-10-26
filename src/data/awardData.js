@@ -1,40 +1,55 @@
-// import React from "react";
-// import Button from '@material-ui/core/Button';
+import certificateIcon from "../images/certificate-icon.png";
+import awardIcon from "../images/award-icon.png";
 
 const exportedObject = [
     {
-        name: "Turing Programme by NUS SoC"
-            // <Button variant="text" href="https://credentials.nus.edu.sg/8fb97240-3ec0-4f40-ac81-950b45a3b3b9" color={"inherit"} target={"_blank"}>
-            //     Dean's List Award by NUS
-            // </Button>
+        id: 1,
+        name: "Certificate in Teaching English to Speakers of Other Languages",
+        imageLink: certificateIcon, // Replace with actual image if available
+        description: "Certified in Teaching English to Speakers of Other Languages, enhancing skills in ESL instruction and curriculum development.",
+        date: "July 2021",
+        links: {
+            // If there's a digital certificate or verification link, add it here
+            verification: "https://certificates.example.com/tefl",
+        }
     },
     {
-        name: "Dean's List Award by NUS SoC"
-            // <Button variant="text" href="https://credentials.nus.edu.sg/8fb97240-3ec0-4f40-ac81-950b45a3b3b9" color={"inherit"} target={"_blank"}>
-            //     Dean's List Award by NUS
-            // </Button>
+        id: 2,
+        name: "China Accreditation Test for Translators and Interpreters (CATTI) Level 3 Translator",
+        imageLink: certificateIcon, // Replace with actual image if available
+        description: "Achieved Level 3 certification in CATTI, demonstrating proficiency in translation and interpretation between Chinese and English.",
+        date: "June 2022",
+        links: {
+            verification: "https://catti.example.com/level3",
+        }
     },
     {
-        name: "Certificate of Distinction in AI by NUS SoC"
-        // <Button variant="text" href="https://credentials.nus.edu.sg/89452960-d61f-4212-a7df-8c88b808aba5" color={"inherit"} target={"_blank"}>
-        //     Certificate of Distinction in AI by NUS
-        // </Button>
+        id: 3,
+        name: "University Academic Excellence Award",
+        imageLink: awardIcon, // Replace with actual image if available
+        description: "Recognized for outstanding academic performance and contributions to the university community.",
+        date: "July 2023",
+        links: {
+            // If there's a specific page or announcement, add the link here
+            announcement: "https://university.example.com/awards/academic-excellence",
+        }
     },
     {
-        name: "Cambridge IELTS Band 8.0",
+        id: 4,
+        name: "Best Overall Academic Performance",
+        imageLink: awardIcon, // Replace with actual image if available
+        description: "Awarded for maintaining the highest GPA throughout the undergraduate program.",
+        date: "July 2023",
+        links: {}
     },
     {
-        name: "Accredited FirstAid-er in Singapore",
-    },
-    {
-        name: "Carro x AWS Hackathon Top 10 Worldwide",
-    },
-    {
-        name: "Huawei Cloud Innovation Finalist",
-    },
-    {
-        name: "Deloitte Digital Difference Camp Finalist",
-    },
+        id: 5,
+        name: "Best Performance in Final Year Project",
+        imageLink: awardIcon, // Replace with actual image if available
+        description: "Recognized for exemplary work and research in the final year project on applied linguistics.",
+        date: "July 2023",
+        links: {}
+    }
 ];
 
 export default exportedObject;

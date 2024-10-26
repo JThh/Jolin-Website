@@ -1,58 +1,39 @@
+// Import relevant images or icons. Replace these with actual image filenames if available.
+
 const exportedObject = [
     {
-        module: "Natural Language Processing",
+        id: 1,
+        module: "First Language Acquisition and Bilingualism",
+        description: "Studied the processes involved in first language acquisition and the dynamics of bilingualism in language development.",
+        date: "Sep 2023 - Sep 2024",
+        grade: "A" // Include if available; otherwise, omit or set as "N/A"
+    },
+    {
+        id: 2,
+        module: "Vocabulary Acquisition",
+        description: "Explored methods and theories related to vocabulary learning and retention in second and foreign language acquisition.",
+        date: "Sep 2023 - Sep 2024",
         grade: "A"
     },
     {
-        module: "Design and Analysis of Algorithms",
+        id: 3,
+        module: "Corpus Linguistics",
+        description: "Analyzed linguistic data using corpus tools to study language patterns and usage.",
+        date: "Sep 2019 - Jul 2023",
         grade: "A"
     },
     {
-        module: "Information Retrieval",
-        grade: "A-"
-    },
-    {
-        module: "CS Research Methodology",
+        id: 4,
+        module: "Bilingualism",
+        description: "Investigated the cognitive and social aspects of bilingualism and its impact on language processing.",
+        date: "Sep 2019 - Jul 2023",
         grade: "A"
     },
     {
-        module: "AI Planning and Decision Making",
-        grade: "A-"
-    },
-    {
-        module: "Mining Web Data for Business Insights",
-        grade: "A"
-    },
-    {
-        module: "Computational Methods for Business Analytics",
-        grade: "A"
-    },
-    {
-        module: "Introduction to Artificial Intelligence",
-        grade: "A"
-    },
-    {
-        module: "Randomized Algorithms",
-        grade: "A-"
-    },
-    {
-        module: "Discrete Structures",
-        grade: "A"
-    },
-    {
-        module: "Macroeconomic Analysis",
-        grade: "A"
-    },
-    {
-        module: "Mathematical Analysis",
-        grade: "A-"
-    },
-    {
-        module: "Programming Methodology",
-        grade: "A"
-    },
-    {
-        module: "Data Structures and Algorithms",
+        id: 5,
+        module: "Applied Linguistics",
+        description: "Applied linguistic theories to practical language education and language policy development.",
+        date: "Sep 2019 - Jul 2023",
         grade: "A"
     },
 ];
