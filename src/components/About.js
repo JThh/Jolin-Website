@@ -21,9 +21,9 @@ class About extends Component {
                 <Typography variant="body2" style={{ width: "70%" }}>
                     {m.module}
                 </Typography>
-                <Typography>
+                {/* <Typography>
                     {m.grade}
-                </Typography>
+                </Typography> */}
             </AccordionDetails>
         );
     }
