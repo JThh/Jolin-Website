@@ -1,10 +1,9 @@
 import aboutBackground from "../images/background/aboutBackground.jpg";
-
 const styles = (theme) => ({
     root: {
         paddingTop: `${theme.mixins.toolbar.minHeight}px`,
         paddingBottom: `${theme.mixins.toolbar.minHeight}px`,
-        minHeight: `100vh`, // Changed from 'height: fit-content' to 'minHeight: 100vh' for proper vertical centering
+        height: `fit-content`,
         boxSizing: "border-box",
         background: `url(${aboutBackground}) no-repeat center`,
         backgroundSize: "cover",
@@ -12,7 +11,7 @@ const styles = (theme) => ({
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center", // Ensures vertical and horizontal centering within the parent
+        justifyContent:"center"
     },
     title: {
         marginBottom: `${theme.mixins.toolbar.minHeight * 0.5}px`,
@@ -27,23 +26,15 @@ const styles = (theme) => ({
         justifyContent: "center",
         borderRadius: "10px",
         backgroundColor: "rgba(255,255,255,0.85)",
-        boxShadow: "0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)",
-        width: "80%", // Optional: Sets a responsive width
-        maxWidth: "600px", // Optional: Limits the maximum width for larger screens
-        [theme.breakpoints.down("sm")]: {
-            width: "90%", // Adjust width for smaller screens
-        },
+        boxShadow: "0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)"
     },
     image: {
-        height: "13rem",
-        width: "13rem", // Ensures the image is perfectly square
-        objectFit: "cover", // Maintains aspect ratio and covers the container
-        borderRadius: "50%", // Makes the image circular if it's square
+        height: "13rem"
     },
     skills: {
         height: "fit-content",
         flexGrow: "0",
-        justifyContent: "center",
+        justifyContent: "center"
     },
     skillBlock: {
         height: "4rem",
@@ -55,11 +46,7 @@ const styles = (theme) => ({
         alignItems: "center",
         backgroundColor: "rgba(255,255,255,0.85)",
         boxShadow: "0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)",
-        borderRadius: '20px',
-        padding: "1rem", // Optional: Adds padding inside the box for better spacing
-        margin: "1rem 0", // Optional: Adds margin between boxes
-        width: "100%", // Ensures the box takes full width of its container
-        boxSizing: "border-box", // Ensures padding and border are included in the total width and height
+        borderRadius: '20px'
     },
     category: {
         display: "inline-flex",
@@ -78,7 +65,7 @@ const styles = (theme) => ({
         padding: "0.2em",
         display: "inline-flex",
         flexDirection: "row",
-        height: "inherit",
+        height: "inherit"
     },
     logoDiv: {
         width: "auto",
@@ -89,16 +76,13 @@ const styles = (theme) => ({
         alignItems:"center",
         [theme.breakpoints.down("sm")]: {
             maxWidth: "10vw",
-        },
+        }
     },
     accordion: {
         borderRadius: "5px",
         width: "60%",
         "&:before": {
-            display: "none",
-        },
-        [theme.breakpoints.down("sm")]: {
-            width: "90%", // Adjust accordion width for smaller screens
+            display: "none"
         },
     },
     accordionSummary: {
@@ -110,8 +94,8 @@ const styles = (theme) => ({
         backgroundColor: "rgba(255,255,255)",
         borderBottom: "1px solid grey",
         display: "flex",
-        justifyContent: "space-between",
-    },
-});
+        justifyContent: "space-between"
+    }
+})
 
 export default styles;
