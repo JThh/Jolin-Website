@@ -47,7 +47,7 @@ class Hero extends Component {
                 <Grid container className={classes.rootGrid} justifyContent="center" alignItems="center">
                     <Grid item xs={12} md={6} className={classes.intro}>
                         <Typography variant="h3" color="primary" align="center">
-                            Hello, I'm Yining (Jolin)
+                            Hello, I'm Yining (Jolin) Han
                         </Typography>
                         <Typography variant="h5" color="primary" align="center" style={{ marginTop: "1rem" }}>
                             and I'm <Typed
