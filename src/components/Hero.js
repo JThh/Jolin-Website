@@ -46,10 +46,10 @@ class Hero extends Component {
                 <Particles className={classes.particles} params={this.particlesConfig} />
                 <Grid container className={classes.rootGrid} justifyContent="center" alignItems="center">
                     <Grid item xs={12} md={6} className={classes.intro}>
-                        <Typography variant="h3" color="primary">
+                        <Typography variant="h3" color="primary" align="center">
                             Hello, I'm Yining (Jolin)
                         </Typography>
-                        <Typography variant="h5" color="primary" style={{ marginTop: "1rem" }}>
+                        <Typography variant="h5" color="primary" align="center" style={{ marginTop: "1rem" }}>
                             and I'm <Typed
                                 strings={[
                                     "an Applied Linguistics Researcher",
