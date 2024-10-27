@@ -1,7 +1,5 @@
 // HeroStyles.js
 
-import aboutBackground from "../images/background/aboutBackground.jpg";
-
 const styles = (theme) => ({
     root: {
         display: "flex", // Enables Flexbox on the root container
