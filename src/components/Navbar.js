@@ -42,7 +42,7 @@ class Navbar extends Component {
                                 </MenuItem> */}
                             </Typography>
                             <Typography variant="h6">
-                                <HashLink smooth to="#Projects">Projects</HashLink>
+                                <HashLink smooth to="#Publications">Publications</HashLink>
                             </Typography>
                         </div>
                         <HashLink smooth to={"#Contact"} className={classes.desktop}>

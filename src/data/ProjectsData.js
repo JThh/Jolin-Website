@@ -2,7 +2,7 @@
 
 const exportedObject = [
     {
-        title: "Exploring Chinese EFL learners' acceptance of mobile-assisted vocabulary learning applications and its influencing factors",
+        title: "Examining Chinese EFL learners' acceptance of mobile-assisted vocabulary learning applications and its influencing factors",
         journal: "Journal of China Computer-Assisted Language Learning",
         date: "2024-08-15",
         type: "Journal Article",
