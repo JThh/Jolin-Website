@@ -1,6 +1,9 @@
 const exportedObject = [
     // Research Experience
-
+    {
+        type:"year",
+        year:"Research Experience"
+    },
     {
         type: "item",
         title: "Research Assistant",
@@ -32,7 +35,10 @@ const exportedObject = [
     },
 
     // Professional Experience
-
+    {
+        type:"year",
+        year:"Professional Experience"
+    },
     {
         type: "item",
         title: "English Teacher",

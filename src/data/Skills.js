@@ -2,7 +2,8 @@
 import adobePremiere from "../images/skillLogos/premiere-pro.png";
 import microsoftOffice from "../images/skillLogos/office.png";
 import spss from "../images/skillLogos/spss.png";
-import sketchEngine from "../images/skillLogos/sketch-engine.png";
+// import sketchEngine from "../images/skillLogos/sketch-engine.png";
+import R from "../images/skillLogos/R.png";
 import catit from "../images/skillLogos/catti.png"; // CATTI Level 3 Translator
 import tefl from "../images/skillLogos/tefl-cetified.png"; // TEFL Certificate
 import englishFlag from "../images/skillLogos/england-flag.png";
@@ -15,7 +16,7 @@ const exportedObject = {
         adobePremiere,
         microsoftOffice,
         spss,
-        sketchEngine,
+        R,
     ],
     "Languages": [
         englishFlag,    // English (Working Proficiency, IELTS 8.0)

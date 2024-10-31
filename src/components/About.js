@@ -77,15 +77,6 @@ class About extends Component {
                                 <Typography variant="h5" align="center">
                                     MSc in Applied Linguistics and Second Language Acquisition, University of Oxford
                                 </Typography>
-                                <Typography variant="h6" align="center">
-                                    University Academic Excellence Award
-                                </Typography>
-                                <Typography variant="body1" align="center" style={{ marginTop: "1rem", marginBottom: "0.4rem" }}>
-                                    Best Overall Academic Performance
-                                </Typography>
-                                <Typography variant="body1" align="center" style={{ marginBottom: "0.4rem" }}>
-                                    Best Performance in Final Year Project
-                                </Typography>
                                 <Accordion className={classes.accordion} style={{ marginBottom: "0.4rem" }}>
                                     <AccordionSummary
                                         expandIcon={<ExpandMoreIcon color="primary" />}
@@ -109,7 +100,7 @@ class About extends Component {
                                     {this.renderCerts(classes)}
                                 </Accordion>
                                 <Typography variant="body2" align="center" style={{ marginTop: "0.8rem", marginBottom: "0.1rem" }}>
-                                    <Link href="https://drive.google.com/uc?export=download&id=1Z7OM0vGdogMRitlOs8XzC1AXOv0ok7WO" color="primary" target="_blank" rel="noopener">
+                                    <Link href="https://drive.google.com/uc?export=download&id=1Z7OM0vGdogMRitlOs8XzC1AXOv0ok7WO" target="_blank" rel="noopener">
                                         Download CV (PDF)
                                     </Link>
                                 </Typography>
