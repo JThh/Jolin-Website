@@ -99,11 +99,30 @@ class About extends Component {
                                     </AccordionSummary>
                                     {this.renderCerts(classes)}
                                 </Accordion>
-                                <Typography variant="body2" align="center" style={{ marginTop: "0.8rem", marginBottom: "0.1rem" }}>
-                                    <Link href="https://drive.google.com/uc?export=download&id=1Z7OM0vGdogMRitlOs8XzC1AXOv0ok7WO" target="_blank" rel="noopener">
+                                <Typography
+                                    variant="body2"
+                                    align="center"
+                                    style={{
+                                        marginTop: "0.8rem",
+                                        marginBottom: "0.1rem",
+                                        color: "black" // Sets Typography text to black
+                                    }}
+                                >
+                                    <Link
+                                        href="https://drive.google.com/uc?export=download&id=1Z7OM0vGdogMRitlOs8XzC1AXOv0ok7WO"
+                                        target="_blank"
+                                        rel="noopener"
+                                        color="inherit" // Inherits color from Typography
+                                        underline="none" // Removes underline; optional
+                                    >
                                         Download CV (PDF)
                                     </Link>
                                 </Typography>
+                                {/* <Typography variant="body2" align="center" style={{ marginTop: "0.8rem", marginBottom: "0.1rem" }}>
+                                    <Link href="https://drive.google.com/uc?export=download&id=1Z7OM0vGdogMRitlOs8XzC1AXOv0ok7WO" target="_blank" rel="noopener">
+                                        Download CV (PDF)
+                                    </Link>
+                                </Typography> */}
                             </div>
                         </Grid>
                         <Grid item container xs={12} md={6} className={classes.skills}>

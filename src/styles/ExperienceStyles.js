@@ -75,16 +75,16 @@ const styles = (theme) => ({
             }
         }
     },
-    timeLineYear: {
+    timeLineLabel: {
         textAlign: "center",
-        maxWidth: "9.375rem",
+        maxWidth: "15rem", // Increased from 9.375rem (~150px) to 15rem (~240px)
         margin: "0 3rem 0 auto",
-        fontSize: "1.8rem",
+        fontSize: "1.6rem", // Adjusted font size for better fit
         background: theme.palette.secondary.main,
         color: theme.palette.secondary.contrastText,
-        borderRadius: "3px",
-        lineHeight: 1,
-        padding: "0.75rem 0 0.75rem",
+        borderRadius: "4px", // Slightly increased border radius
+        lineHeight: 1.2,
+        padding: "0.75rem 1rem", // Increased horizontal padding
         "&:before": {
             display: "none"
         },
@@ -98,6 +98,9 @@ const styles = (theme) => ({
             "&:nth-of-type(2n):before": {
                 display: "none"
             }
+        },
+        [theme.breakpoints.up("lg")]: {
+            maxWidth: "20rem", // Further increase for larger screens
         }
     },
     experienceDetails: {
