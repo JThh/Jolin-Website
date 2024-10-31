@@ -11,7 +11,11 @@ class Experience extends Component {
         let evenExperience = false;
         return experienceData.map(e => e.type === "year"
             ?
-            <Typography variant={"h4"} className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+            <Typography 
+            variant={"h4"} 
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`} 
+            style={{ color: "white" }} // Added inline style to set text color to white
+            >
                 {e.year}
             </Typography>
             :
