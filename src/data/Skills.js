@@ -4,6 +4,7 @@ import microsoftOffice from "../images/skillLogos/office.png";
 import spss from "../images/skillLogos/spss.png";
 // import sketchEngine from "../images/skillLogos/sketch-engine.png";
 import R from "../images/skillLogos/R.png";
+import excel from "../images/skillLogos/excel.png";
 import catit from "../images/skillLogos/catti.png"; // CATTI Level 3 Translator
 import tefl from "../images/skillLogos/tefl-cetified.png"; // TEFL Certificate
 import englishFlag from "../images/skillLogos/england-flag.png";
@@ -15,6 +16,7 @@ const exportedObject = {
     "Software Tools": [
         adobePremiere,
         microsoftOffice,
+        excel,
         spss,
         R,
     ],
