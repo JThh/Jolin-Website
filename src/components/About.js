@@ -109,7 +109,7 @@ class About extends Component {
                                     }}
                                 >
                                     <Link
-                                        href="https://drive.google.com/uc?export=download&id=1Z7OM0vGdogMRitlOs8XzC1AXOv0ok7WO"
+                                        href="https://drive.google.com/uc?export=download&id=1tfd_ifOrs_tE-dD42tlqVwZz5KR5pxlw"
                                         target="_blank"
                                         rel="noopener"
                                         color="inherit" // Inherits color from Typography
