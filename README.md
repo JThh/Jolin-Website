@@ -16,6 +16,7 @@ Other packages used for both production and development can be found in [package
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and hosted on [Netlify](https://www.netlify.com/).<br/><br/>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c26dc48c-d5fb-45b2-a924-8a89edfb6109/deploy-status)](https://app.netlify.com/sites/jiatong-han/deploys)
 
+
 ## Sections
 
 This website consists of the following sections:
